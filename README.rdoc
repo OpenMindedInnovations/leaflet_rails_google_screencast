@@ -1,5 +1,11 @@
-== Rails Foundation Template
+== Leaflet and Ruby on Rails with Google tiles
 
-This is a very basic setup using foundation. 
+This is the code for a screencast showing how to integrate Leaflet with Ruby on Rails with Google tiles.
 
-git clone git@github.com:jbhatab/rails-foundation-template.git
+video: https://www.youtube.com/watch?v=dxghnTqwnvo
+
+leaflet: http://leafletjs.com/
+
+Google maps api: https://developers.google.com/maps/
+
+leaflet-google.js: https://gist.github.com/crofty/2197042

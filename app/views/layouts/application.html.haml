@@ -5,12 +5,18 @@
     %meta{content: "width=device-width, initial-scale=1.0", name: "viewport"}
     %title= content_for?(:title) ? yield(:title) : "Rails foundation template"
     %link{href: "http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600,700|Merriweather:400,700,900", rel: "stylesheet", type: "text/css"}
+
+    %link{href: "http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css", rel: "stylesheet"}
+
     = stylesheet_link_tag    "application"
     = javascript_include_tag "vendor/modernizr"
+
     = csrf_meta_tags
   %body
     .row
       .small-12.columns
         = yield
 
+    %script{src: "http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"}
+    %script{src: "https://maps.googleapis.com/maps/api/js", type: "text/javascript"}
     = javascript_include_tag "application"
