@@ -1,5 +1,7 @@
 == Leaflet and Ruby on Rails with Google tiles
 
+Blog post: http://www.openmindedinnovations.com/blogs/leaflet-and-ruby-on-rails-with-google-tiles
+
 This is the code for a screencast showing how to integrate Leaflet with Ruby on Rails with Google tiles.
 
 video: https://www.youtube.com/watch?v=dxghnTqwnvo
